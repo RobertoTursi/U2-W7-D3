@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body
+        {
+            height: 100%;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        div{
+            width:100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            border-radius: 100%;
+            border:1px solid black;
+            align-items: center;
+        }
+        p{
+            font-size: 3em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Countdown</h1>
+    <div>
+        <p id="countdown">1</p>
+    </div>
+    <script src="./es2.js"></script>
+</body>
+</html>
